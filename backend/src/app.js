@@ -6,7 +6,7 @@ import path from "path";
 import connectDB  from "./lib/db.js";
 import authRoutes from "./routes/auth.route.js";
 import messageRoutes from "./routes/message.route.js";
-import cookieParser from "cookie-parser";4
+import cookieParser from "cookie-parser";
 import { app, server} from "./lib/socket.js";
 const __dirname = path.resolve();
 
